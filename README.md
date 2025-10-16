@@ -29,5 +29,5 @@ The goal is to explore disciplined trading strategies, analyze performance, and 
 
 ---
 
-*Created by [Your Name]*  
+*Created by Maan Patel*  
 For educational and research purposes only. Not financial advice.
