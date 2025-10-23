@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ICT-based trading strategy, liquidity concepts, and risk management" />
+  <title>My ICT Trading Strategy</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2d04b1f6b.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      background-color: #0d1117;
+      color: #e6edf3;
+      scroll-behavior: smooth;
+    }
+    section {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    }
+    h1, h2, h3 {
+      font-weight: 700;
+    }
+    .divider {
+      height: 2px;
+      background: linear-gradient(to right, #6366f1, #22d3ee);
+      width: 60px;
+      margin: 1rem auto;
+      border-radius: 1px;
+    }
+  </style>
+</head>
+
+<body class="font-sans leading-relaxed">
+  <!-- Header -->
+  <header class="bg-gray-900 shadow-md fixed top-0 w-full z-50">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <h1 class="text-xl font-bold text-indigo-400">ICT Strategy</h1>
+      <nav class="space-x-6 text-sm">
+        <a href="#strategy" class="hover:text-indigo-400">Strategy</a>
+        <a href="#concepts" class="hover:text-indigo-400">Concepts</a>
+        <a href="#risk" class="hover:text-indigo-400">Risk</a>
+        <a href="#contact" class="hover:text-indigo-400">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="text-center pt-32 pb-20 bg-gradient-to-b from-gray-900 to-gray-800">
+    <h1 class="text-4xl md:text-5xl font-extrabold mb-4">📈 My ICT-Based Trading Strategy</h1>
+    <p class="text-gray-400 max-w-2xl mx-auto">
+      A high-time-frame Fair Value Gap (FVG) continuation model — inspired by ICT concepts and institutional order flow.
+    </p>
+  </section>
+
+  <!-- Strategy -->
+  <section id="strategy" class="container mx-auto px-6">
+    <h2 class="text-3xl text-center mb-2">🎯 Core Strategy</h2>
+    <div class="divider"></div>
+    <p class="max-w-3xl mx-auto text-gray-300 mb-8 text-center">
+      My approach revolves around identifying high-time-frame FVGs that align with directional bias and structure.
+      Below is my step-by-step framework:
+    </p>
+
+    <div class="max-w-3xl mx-auto space-y-6">
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-md">
+        <h3 class="font-semibold text-indigo-400 mb-2">1. Determine Market Bias</h3>
+        <p>Use 1D, 4H, and 1H charts to define whether the bias is <strong>bullish</strong> or <strong>bearish</strong>.</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-md">
+        <h3 class="font-semibold text-indigo-400 mb-2">2. Identify Retracement</h3>
+        <p>Look for retracement near the range equilibrium overlapping a <strong>15m+ Fair Value Gap</strong>.</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-md">
+        <h3 class="font-semibold text-indigo-400 mb-2">3. Confirm Directional Entry</h3>
+        <p>Once the range rebalances and FVG fills, look for an <strong>Inverse FVG (IFVG)</strong> confirming continuation.</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-md">
+        <h3 class="font-semibold text-indigo-400 mb-2">4. Set Targets</h3>
+        <p>Target <strong>internal liquidity</strong> (HTF FVGs) or <strong>external liquidity</strong> (major highs/lows).</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-md">
+        <h3 class="font-semibold text-indigo-400 mb-2">5. Manage R:R</h3>
+        <p>Aim for at least a <strong>1:1 Risk-to-Reward ratio</strong>.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Concepts -->
+  <section id="concepts" class="bg-gray-900 mt-16">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl text-center mb-2">💡 Key Concepts</h2>
+      <div class="divider"></div>
+
+      <div class="grid md:grid-cols-2 gap-8 mt-10">
+        <div class="bg-gray-800 p-6 rounded-2xl shadow-md">
+          <h3 class="font-semibold text-indigo-400 mb-2">🏦 Liquidity</h3>
+          <p>Liquidity is <em>where the money lies in the market</em>. These are zones like swing highs/lows where traders’ stop losses cluster. The market often clears these zones before continuing.</p>
+        </div>
+
+        <div class="bg-gray-800 p-6 rounded-2xl shadow-md">
+          <h3 class="font-semibold text-indigo-400 mb-2">⚖️ Fair Value Gap (FVG)</h3>
+          <p>Represents an imbalance in the market, seen as a 3-candle formation with a visible gap. Price often rebalances these areas to fill unexecuted orders.</p>
+        </div>
+
+        <div class="bg-gray-800 p-6 rounded-2xl shadow-md">
+          <h3 class="font-semibold text-indigo-400 mb-2">🔄 Inverse FVG (IFVG)</h3>
+          <p>Occurs when a previous FVG gets filled and balanced, indicating potential continuation in the same direction.</p>
+        </div>
+
+        <div class="bg-gray-800 p-6 rounded-2xl shadow-md">
+          <h3 class="font-semibold text-indigo-400 mb-2">📉 SMT Divergence</h3>
+          <p>When correlated assets diverge — e.g., NQ takes a daily high while ES doesn’t — signaling exhaustion or reversal potential.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Risk Management -->
+  <section id="risk" class="container mx-auto px-6 mt-16">
+    <h2 class="text-3xl text-center mb-2">🧮 Risk Management</h2>
+    <div class="divider"></div>
+    <p class="text-center text-gray-300 mb-8 max-w-2xl mx-auto">
+      Simplicity is key — effective risk management keeps you in the game long-term.
+    </p>
+
+    <div class="max-w-3xl mx-auto space-y-6">
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-md">
+        <h3 class="font-semibold text-indigo-400 mb-2">1. Risk Limits</h3>
+        <ul class="list-disc list-inside text-gray-300">
+          <li>Personal Account: Risk <strong>1% max</strong> per trade</li>
+          <li>Prop Challenge: Risk <strong>12.5–25%</strong> of drawdown</li>
+          <li>Funded Stage: Risk <strong>5–12.5%</strong> of drawdown</li>
+        </ul>
+      </div>
+
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-md">
+        <h3 class="font-semibold text-indigo-400 mb-2">2. Daily Rules</h3>
+        <p>If first trade wins, stop trading. If first trade loses, take only one more (half size) and stop regardless of outcome.</p>
+      </div>
+
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-md">
+        <h3 class="font-semibold text-indigo-400 mb-2">3. Always Use SL & TP</h3>
+        <p>Every trade has both — no exceptions.</p>
+      </div>
+
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-md">
+        <h3 class="font-semibold text-indigo-400 mb-2">4. Session</h3>
+        <p>Trade between <strong>8 PM – 10 PM (Asia session)</strong>.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="bg-gray-900 text-center mt-16 py-10 border-t border-gray-800">
+    <p class="text-gray-400 mb-2">Built with ❤️ by <strong>Your Name</strong></p>
+    <p class="text-sm text-gray-500">
+      © 2025 | Hosted on <a href="https://github.com/" target="_blank" class="text-indigo-400 hover:underline">GitHub Pages</a>
+    </p>
+  </footer>
+</body>
+</html>
